@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gauge Enjoyer</string>
+    <string name="temperature_label">Temperature:</string>
+</resources>
