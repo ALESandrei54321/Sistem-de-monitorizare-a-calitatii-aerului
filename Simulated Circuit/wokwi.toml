@@ -1,0 +1,13 @@
+[wokwi]
+version = 1
+firmware = 'build/ESP32_GENERIC-20240602-v1.23.0.bin'
+elf = 'build/ESP32_GENERIC-20240602-v1.23.0.bin'
+rfc2217ServerPort = 4000
+
+[[chip]]
+name = 'mq135'
+binary = 'chips/mq135.chip.wasm'
+
+[[net.forward]]
+from = "localhost:1883"
+to = "host.wokwi.internal:1883"

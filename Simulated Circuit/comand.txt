@@ -1,0 +1,2 @@
+python -m mpremote connect port:rfc2217://localhost:4000 fs cp src/simple.py :simple.py + run src/main.py
+python -m mpremote connect port:rfc2217://localhost:4000 run src/main.py

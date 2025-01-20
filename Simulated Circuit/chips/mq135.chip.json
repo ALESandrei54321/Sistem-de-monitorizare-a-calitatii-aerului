@@ -1,0 +1,17 @@
+{
+  "name": "mq135",
+  "author": "",
+  "pins": [
+    "VCC",
+    "GND",
+    "A0",
+    "D0","","",""
+  ],
+  "controls": [{
+      "id": "ppm",
+      "label": "PPM",
+      "type": "slider",
+      "min":0,
+      "max":1000
+    }]
+}
